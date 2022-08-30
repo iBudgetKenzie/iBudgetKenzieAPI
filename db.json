@@ -4,54 +4,46 @@
       "email": "kenzinho@mail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
-      "accountType": "seller",
-      "age": "38",
+      "username": "kenzinho",
+      "position": "Fullstack developer",
+      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg",
       "id": 1
     },
     {
-      "email": "alvrinho@kenzie.com",
-      "password": "$2a$10$kG0zpQETnyUYa00KrkfZI.T9grboqxD/iVcse4QuPPnF3cKaoZday",
+      "email": "alvrinho1@kenzie.com",
+      "password": "$2a$10$hAFB1p6qVibfXHVAYf0ew.CnLied6gF7/SJBuLYmARHWGpOBQJxpq",
       "name": "Alvrinho",
-      "accountType": "customer",
-      "age": "25",
+      "username": "alvrinho",
+      "position": "Frontend developer",
+      "imageUrl": "https://ca.slack-edge.com/TQZR39SET-U035WCR5001-b76f4c1838fd-512",
       "id": 2
+    },
+    {
+      "email": "alvrinho2@kenzie.com",
+      "password": "$2a$10$6X49f9Pz9awZuwiOEmrFeuwP8unDAMWKCTN0tJfh3M5CIgvYYPHUS",
+      "name": "Álvaro Alencar",
+      "username": "alvrinho",
+      "position": "Front-end developer",
+      "imageUrl": "https://ca.slack-edge.com/TQZR39SET-U035WCR5001-b76f4c1838fd-512",
+      "id": 3
     }
   ],
-  "products": [
+  "budgets": [
     {
-      "name": "Mouse Gamer",
-      "description": "Mouse para jogos superior. LIGHTSPEED sem fio de latência ultrabaixa. O sensor HERO 25K alcança o rastreamento submicrométrico.",
-      "price": "499.90",
+      "projectName": "landing page para petshop",
+      "projectTime": "2",
+      "fixedCost": "900",
+      "variableCost": "300",
       "userId": 1,
       "id": 1
     },
     {
-      "name": "Espelho 30x50cm",
-      "description": "Espelho espelho meu",
-      "price": "99.90",
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "name": "Escova de dentes",
-      "description": "dente limpinho",
-      "price": "5.90",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "name": "Escova de cabelo",
-      "description": "bla",
-      "price": "5.90",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "name": "Teclado",
-      "description": "bla",
-      "price": "190.00",
-      "userId": 1,
-      "id": 6
+      "projectName": "Landing page para petshop",
+      "projectTime": "2",
+      "fixedCost": "1000",
+      "variableCost": "300",
+      "userId": 2,
+      "id": 2
     }
   ]
 }
