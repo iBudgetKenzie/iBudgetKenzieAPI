@@ -1,24 +1,42 @@
-# json-server-base
+<h1 align="center">
+  iBudget API
+</h1>
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
+<p align = "center">
+Este é o backend da aplicação iBudget - Uma aplicação web que permite que os usuários registrem seus dados, alimente um formulário com os dados do cliente e os valores a serem calculados, baseado nos custos fixos e variáveis, além do calculo da hora de trabalho. Podendo então gerar um histórico de orçamentos e exibi-los de forma clara e objetiva.
+</p>
 
-## Endpoints
+## **Endpoints**
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+- A API tem um total de 8 endpoints, sendo em volta do usuário (dev) - podendo cadastrar seu perfil, orçamentos (budgets) realizados. <br/>
+- O JSON para utilizar no Insomnia é este aqui -> link do drive <br/>
+- Para importar o JSON no Insomnia é só baixar o arquivo. Na palavra "Insomnia" no canto superior esquerdo. Nesse dropdown é só clicar em "Import / Export > Import Data > From File" e selecionar o arquivo que foi feito download.
 
-### Cadastro
+- O URL base da API é https://ibudget-kenzie.herokuapp.com
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+## Rotas que não precisam de autenticação
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+<h2 align ='center'> Login de usuário </h2>
 
+`POST /login - FORMATO DA REQUISIÇÃO`
 
-### Login
+```json
+{
+  "email": "alvrinho@kenzie.com",
+  "password": "123456"
+}
+```
+<h2 align ='center'> Cadastro de usuário </h2>
 
-POST /login <br/>
-POST /signin
+`POST /register - FORMATO DA REQUISIÇÃO`
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+```json
+{
+  "email": "alvrinho@kenzie.com",
+  "password": "123456",
+  "name": "Alvrinho",
+  "username": "alvrinho",
+  "position": "Front-end developer",
+  "imageUrl": "https://ca.slack-edge.com/TQZR39SET-U035WCR5001-b76f4c1838fd-512"
+}
+```
