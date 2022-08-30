@@ -9,7 +9,7 @@ Este é o backend da aplicação iBudget - Uma aplicação web que permite que o
 ## **Endpoints**
 
 - A API tem um total de 8 endpoints, sendo em volta do usuário (dev) - podendo cadastrar seu perfil, logar e registrar orçamentos (budgets) realizados. <br/>
-- O JSON para utilizar no Insomnia é este aqui -> link do drive <br/>
+- O JSON para utilizar no Insomnia é este aqui -> https://drive.google.com/file/d/16q7Pc-B5hMU1xBLSauvSx1npuWZxscDI/view?usp=sharing <br/>
 - Para importar o JSON no Insomnia é só baixar o arquivo. Na palavra "Insomnia" no canto superior esquerdo. Nesse dropdown é só clicar em "Import / Export > Import Data > From File" e selecionar o arquivo que foi feito download.
 
 - O URL base da API é https://ibudget-kenzie.herokuapp.com
