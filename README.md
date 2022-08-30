@@ -98,8 +98,8 @@ Não precisa de body.
 		{
 			"projectName": "Landing page para petshop",
 			"projectTime": "2",
-			"fixedCost": "1000",
-			"variableCost": "300",
+			"fixedCost": 1000,
+			"variableCost": 300,
 			"userId": 2,
 			"id": 2
 		}
@@ -151,8 +151,8 @@ Não precisa de body.
 {
 	"projectName": "Landing page para barbershop",
 	"projectTime": "2",
-	"fixedCost": "1000",
-	"variableCost": "300",
+	"fixedCost": 1000,
+	"variableCost": 300,
 	"userId": 2
 }
 ```
@@ -163,8 +163,8 @@ Não precisa de body.
 {
 	"projectName": "Landing page para barbershop",
 	"projectTime": "2",
-	"fixedCost": "1000",
-	"variableCost": "300",
+	"fixedCost": 1000,
+	"variableCost": 300,
 	"userId": 2,
 	"id": 3
 }
@@ -176,7 +176,7 @@ Não precisa de body.
 
 ```json
 {
-	 "fixedCost": "900"
+	 "fixedCost": 900
 }
 ```
 
@@ -186,8 +186,8 @@ Não precisa de body.
 {
 	"projectName": "Landing page para barbershop",
 	"projectTime": "2",
-	"fixedCost": "900",
-	"variableCost": "300",
+	"fixedCost": 900,
+	"variableCost": 300,
 	"userId": 2,
 	"id": 3
 }
