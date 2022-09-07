@@ -97,8 +97,9 @@ Não precisa de body.
 	"budgets": [
 		{
 			"projectName": "Landing page para petshop",
-			"projectTime": "2",
+			"projectTime": 2,
 			"fixedCost": 1000,
+			"budget" 1500,
 			"variableCost": 300,
 			"userId": 2,
 			"id": 2
