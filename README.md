@@ -39,6 +39,7 @@ Este é o backend da aplicação iBudget - Uma aplicação web que permite que o
 		"position": "Front-end developer",
 		"imageUrl": "https://ca.slack-edge.com/TQZR39SET-U035WCR5001-b76f4c1838fd-512",
 		"id": 7
+		"budgets": []
 	}
 }
 ```
