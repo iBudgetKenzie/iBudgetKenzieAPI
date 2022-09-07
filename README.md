@@ -150,11 +150,12 @@ Não precisa de body.
 
 ```json
 {
-	"projectName": "Landing page para barbershop",
-	"projectTime": "2",
+	"projectName": "Landing page para petshop1",
+	"projectTime": 2,
+	"budget": 1000,
 	"fixedCost": 1000,
 	"variableCost": 300,
-	"userId": 2
+	"userId": 1
 }
 ```
 
@@ -162,12 +163,13 @@ Não precisa de body.
 
 ```json
 {
-	"projectName": "Landing page para barbershop",
-	"projectTime": "2",
+	"projectName": "Landing page para petshop1",
+	"projectTime": 2,
+	"budget": 1000,
 	"fixedCost": 1000,
 	"variableCost": 300,
-	"userId": 2,
-	"id": 3
+	"userId": 1,
+	"id": 5
 }
 ```
 
@@ -186,7 +188,7 @@ Não precisa de body.
 ```json
 {
 	"projectName": "Landing page para barbershop",
-	"projectTime": "2",
+	"projectTime": 2,
 	"fixedCost": 900,
 	"variableCost": 300,
 	"userId": 2,
