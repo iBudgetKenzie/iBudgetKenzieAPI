@@ -99,7 +99,7 @@ Não precisa de body.
 			"projectName": "Landing page para petshop",
 			"projectTime": 2,
 			"fixedCost": 1000,
-			"budget" 1500,
+			"budget": 1500,
 			"variableCost": 300,
 			"userId": 2,
 			"id": 2
